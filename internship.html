@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img{
+            border-radius: 8px;
+            padding: 10px;
+            width: 200px;
+        }
+        .responsive {
+        max-width: 100%;
+        height: auto;
+        }
+        hr{
+            width:100%;
+            color:gray;
+            height:2px;
+            border-width:2px;
+        }
+        ul {
+        font-size: 22px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        }
+
+        li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        }
+
+        li a.active {
+        background-color: red;
+        color: white;
+        }
+
+        li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+        }
+        footer {
+        position: fixed;
+        width:100%;
+        text-align: center;
+        padding: 3px;
+        background-color: grey;
+        color: white;
+        bottom: 0;
+
+        }
+        .todaynews {
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+        }
+
+        .todaynews > h1, .news {
+        margin: 10px;
+        padding: 5px;
+        }
+
+        .news {
+        background: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily News</h1> <hr>
+    <ul>
+        <li><a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a></li>
+        <li><a href="#news"><i class="fa fa-fw fa-tv"> </i> Live Tv</a></li>
+        <li><a href="#india"><i class="fa fa-fw fa-graduation-cap"> </i> Education</a></li>
+        <li><a href="#business"><i class="fa fa-bar-chart-o"></i> Business</a></li>
+        <li><a href="#sports"><i class="fa fa-soccer-ball-o"></i> Sports</a></li>
+        <li><a href="#Health"><i class="fa fa-fw fa-heart"> </i> Health</a></li>
+        <li><a href="#podcast"><i class="fa fa-podcast"></i> Podcasts</a></li>
+        <li><a href="#weather"><i class="fa fa-fw fa-cloud"> </i> Weather</a></li>
+      </ul>
+    <div style="margin-left:20%;padding:1px 16px;height:1000px;">
+    <div class="newss">
+        <article class="todaynews">
+            <marquee><h1>Today's News</h1></marquee>
+            <article class="news">
+              <h3>PayPal enables transfer of digital currencies to external wallets</h3>
+              <a href="news.html#news1"><img src="img/paypal.webp" alt="paypal" class="responsive"></a>
+              </article>
+              <article class="news">
+              <h3 class="tagline">Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</h3>
+              <a href="news.html#news2"><img src="img/ip.jpg" alt="parliament" class="responsive"></a>
+            </article>
+            <article class="news">
+            <h3 class="tagline">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC        </h3>
+            <a href="news.html#news3"><img src="img/MicroStrategy.jpeg" alt="bitcoin" class="responsive"></a>
+             </article>
+             <article class="news">
+            <h3 class="tagline">Bitcoin Miners' Revenue Hits $9.55 Billion in 2022</h3>
+            <a href="news.html#news4"><img src="img/bitcoin.png" alt="bitcoin" class="responsive"></a>
+            </article>
+            <article class="news">
+            <h3 class="tagline">Mango Markets Exploiter Eisenberg Arrested in Puerto Rico</h3>
+            <a href="news.html#news5"><img src="img/market.jpg" alt="Arrested" class="responsive"></a>
+        </article>
+        </article>
+        
+
+    </div>
+</div>
+<footer>
+    <p>&copy; Copyright &nbsp;All Rights Reserved</p>
+</footer>
+</body>
+</html>
